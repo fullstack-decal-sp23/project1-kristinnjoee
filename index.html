@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project 1</title>
+    <authoKr>ristin Joe</author>
+    <link rel="proj1" href="proj1.css">
+
+    <style>
+        .about-container {
+        display: grid;
+        grid-template-areas: 
+            'header header header header header header'
+            'menu main main main main right right'
+            'work work work work work'
+            'menu footer footer footer footer footer';
+        gap: 10px;
+        background-color: rgb(170, 140, 140);
+        padding: 10px
+      }
+    
+        .about-container > div {
+            background-color:  rgb(237, 230, 230);
+            text-align: left;
+            padding: 5px 5px;
+            font-size: 20px
+        }
+
+        .img-container {
+        display: grid;
+        grid-template-areas: 
+            'header header header header header header'
+            'menu main main main main right right'
+            'work work work work work'
+            'menu footer footer footer footer footer';
+        gap: 10px;
+        background-color: rgb(170, 140, 140);
+        padding: 10px
+        }
+    
+        .img-container > div {
+            background-color:  rgb(237, 230, 230);
+            text-align: left;
+            padding: 5px 5px;
+            font-size: 20px
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: rgb(237, 230, 230);
+            flex-direction: row-reverse;
+        }
+
+        .flex-container > div {
+            background-color:rgb(237, 230, 230);
+            width: 75px;
+            margin: 5px;
+            text-align: center;
+            line-height: 5px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="flex-container">
+    <div><h6>Contact Us</h6></div>
+    <div><h6>Past Work</h6></div>
+    <div><h6>About Me!</h6></div>
+    </div>
+
+    <div class="about-container">
+        <div class="label">
+            <h1>Kristin Joe</h1>
+            <h4>Hi! Nice to meet you :)</h4></div>
+    </div>
+    
+    <div class="img-container"><img src="kristin.png" alt="Photo of Me!" style="width:100px;height:135px">
+    </div>
+
+    <div class="about-container">
+        <div class="label"><h2>A little bit about me:</h2><p class="a">Hi, I'm Kristin! At heart, I'm a SoCal girl--born and raised the Los Angeles area. I'm a INFP on the Myers Briggs personality type indicator. In other words, I'm an introvert who thrives on one-on-one conversations and satisfying curiosities.</p></div>
+    </div>
+    
+    <div class="about-container">
+        <div class="label"><h2>A glimpse into my life...</h2>
+        <div class="label">
+        <li><b>Cognitive Science and Data Science @ UC Berkeley:</b> a lost first-year searching for her academic niche by blending psychology and technology</li>
+        <br>
+        <li><b>On my free time:</b> organizing, reading, guitaring, curating-Spotify-playlists-ing</li>
+        <br>
+        <li><b>On the daily:</b> probably laughing obnoxiously with friends, holding a boba milk tea in hand, or studying in Moffitt Library (Floor 5, of course)</li></div>
+        </div>
+        
+    <div class="about-container">
+        <div class="label"><h2>Past projects</h2>
+        <div class="label">
+        <li>Myers' Briggs Type Indicator App (AP CSP)</li>
+        </div>
+        </div>
+        </div>
+
+    <div class="about-container">
+        <div class="label" id="identified"><h2>Contact</h2>
+    <h3>Follow me on social media!</h3>
+    <li><b>Instagram:</b> @kristinnjoee</li><a href = "https://www.instagram.com/kristinnjoee/?next=%2F&hl=en" target = "_blank"><button>Follow me!</button></a>
+    <br>
+    <br>
+    <li><b>Spotify:</b> @kristin.haha</li><a href = "https://open.spotify.com/user/kristin.haha" target = "_blank"><button>Follow me!</button></a>
+    <br>
+    <br>
+    <li><b>Email:</b> kristin.joe@berkeley.edu</li>
+    
+    <form>
+        <h5>Feel free to email me!</h5>
+        <input type="text" placeholder="Full Name">
+        <br>
+        <input type="text" placeholder="Your Email">
+        <br>
+        <input type="text" placeholder="Send me a message!">
+        <br>
+        <input type="submit" placeholder="Submit">
+    </form>
+    </div>
+    
+    <h6>lookie here</h6>
+
+    <button onclick="myFunction()">double dog dare ya</button>
+    
+    <script>
+        function myFunction() {
+            alert("JOE MUM")
+        }
+    </script>
+</body>
+<html>
