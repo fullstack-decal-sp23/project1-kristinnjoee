@@ -1,0 +1,25 @@
+#intro {
+    color: rgb(157, 107, 124);
+    text-align: center;
+    margin: 50px;
+  }
+
+.label {
+    color:aliceblue;
+}
+
+.label:hover {
+    transform: scale(4);
+}
+  
+p.a {
+    font: 15px Arial, sans-serif;
+}
+
+#identified {
+    background-color: whitesmoke
+}
+
+* {
+    background-color: white
+}
